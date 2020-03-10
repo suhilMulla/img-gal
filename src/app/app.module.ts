@@ -10,6 +10,14 @@ import { Eve2020Component } from './eve2020/eve2020.component';
 import { Cus2020Component } from './cus2020/cus2020.component';
 import { Eve2019Component } from './eve2019/eve2019.component';
 
+import { Cus2012Component } from './cus2012/cus2012.component';
+import { Eve2012Component } from './eve2012/eve2012.component';
+
+
+
+import { Cus2019Component } from './cus2019/cus2019.component';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,8 +26,14 @@ import { Eve2019Component } from './eve2019/eve2019.component';
     CustYearCardComponent,
     Eve2020Component,
     Cus2020Component,
-    Eve2019Component
+    Eve2019Component,
+
+    Cus2012Component,
+    Eve2012Component,
+    Cus2019Component,
+
   ],
+
   imports: [
     BrowserModule,
     AppRoutingModule
