@@ -19,7 +19,7 @@ const routes: Routes = [
   {path:'eve2020', component:Eve2020Component},
   {path:'cus2020', component: Cus2020Component},
   {path:'eve2019', component:Eve2019Component},
-  {path:'eve2012', component:Eve2012Component},
+  {path:'eve2012', component:Eve2012Component}, 
   {path:'cus2012', component: Cus2012Component}
 ];
 
