@@ -6,6 +6,8 @@ import {CustYearCardComponent} from './cust-year-card/cust-year-card.component';
 import {Eve2020Component} from './eve2020/eve2020.component';
 import {Cus2020Component} from './cus2020/cus2020.component';
 import { Eve2019Component } from './eve2019/eve2019.component';
+import {Eve2013Component} from './eve2013/eve2013.component';
+import {Cus2013Component} from './cus2013/cus2013.component';
 
 const routes: Routes = [
   {path:'',redirectTo:'home',pathMatch:'full'},
@@ -14,7 +16,9 @@ const routes: Routes = [
   {path:'cust_year_card', component: CustYearCardComponent},
   {path:'eve2020', component:Eve2020Component},
   {path:'cus2020', component: Cus2020Component},
-  {path:'eve2019', component:Eve2019Component}
+  {path:'eve2019', component:Eve2019Component},
+  {path:'eve2013', component:Eve2013Component},
+  {path:'cus2013', component:Cus2013Component}
 ];
 
 @NgModule({
