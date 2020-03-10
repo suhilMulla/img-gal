@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "gall": {
@@ -24,8 +24,13 @@
               "src/assets"
             ],
             "styles": [
+
               "src/styles.css"
             ,"C:/Users/c.shree/img-gall/src/assets/css/bootstrap.css"
+
+              "src/styles.css",
+              "C:/Users/shifa.r/img-gal/src/assets/css/bootstrap.css"
+
             ],
             "scripts": []
           },
@@ -120,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "gall"
+    }
+  },
+  "defaultProject": "gall",
+  "cli": {
+    "analytics": "5eaeb3dd-fc30-412c-838a-d010bb8d6f75"
+  }
 }
